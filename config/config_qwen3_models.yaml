@@ -1,0 +1,29 @@
+# https://huggingface.co/Qwen/Qwen3-32B#best-practices # for Thinking mode parameters
+response_key: 'response'
+meta_response_key: 'meta_response'
+error_key: 'error'
+id_key:
+  - 'uuid'
+prompt_key: 'prompt'
+
+# claude-think
+thinking_type: 'enabled'
+budget_tokens: 32768
+
+history_key: 'history'
+status_key: 'status'
+
+save_prompt: True
+save_meta_response: True
+print_response: False
+print_meta_response: False
+max_tokens: 32768
+
+# Qwen3 Thinking mode parameters for best practices
+temperatrue: 0.6 # 0 for greedy decoding
+top_p: 0.95      # 新增
+top_k: 20        # 新增
+min_p: 0         # 新增
+
+max_rounds: 30
+BoN: 32

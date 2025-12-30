@@ -1,0 +1,10 @@
+prompt_format: 
+  - |
+    Answer the following multiple choice question. Please carefully analyze each statement and option, and end your response with 'Answer: $OPTION_NUMBER' (no quotes), where OPTION_NUMBER is {}.
+    
+    {}
+# prompt_format: 
+#   - |
+#     Answer the following multiple choice question. There is only one correct answer. Your response should be a detailed analysis, and the last line of your analysis should be in the format 'Answer: $LETTER' (without quotes), where LETTER is one of A, B, C, D, E, F, G, H, I, or J.
+    
+#     {}
